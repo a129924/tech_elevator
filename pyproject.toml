@@ -1,0 +1,19 @@
+[project]
+name = "tech_elevator"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "a129924", email = "a129924@gmail.com"},
+]
+dependencies = [
+    "scrapy>=2.11.2",
+    "pydantic>=2.7.3",
+    "pydantic-settings>=2.3.1",
+]
+requires-python = "==3.9.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

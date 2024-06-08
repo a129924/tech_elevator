@@ -1,4 +1,4 @@
-from scrapy import Spider, Request
+from scrapy import Request, Spider
 from scrapy.http import HtmlResponse
 
 from ..items.job_104 import Job104Item

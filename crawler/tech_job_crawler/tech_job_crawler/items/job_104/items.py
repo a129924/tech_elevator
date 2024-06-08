@@ -3,10 +3,13 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Item, Field
 
 
-class TechJobCrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class Job104Item(Item):
+    company_name = Field()
+    job_url = Field()
+    job_content = Field()
+    work_address = Field()
+    salary = Field()
+    other_condition = Field()
